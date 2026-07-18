@@ -2,7 +2,7 @@ name: Guac
 
 on:
   workflow_dispatch:
-
+  push:
 jobs:
   publish:
     runs-on: ubuntu-latest
